@@ -1,0 +1,101 @@
+/* SECTION element selectors */
+ *{
+     font-family: 'Sofia Sans', sans-serif;
+ }
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #1c4588;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    text-align: center;
+    border: 2px solid black;
+}
+
+footer{
+    background-color: #1c4588;
+    padding: 3em;
+    margin-top: 3vh;
+    border: 2px solid black;
+}
+
+h5{
+    margin: .2em;
+    padding: .2em;
+    text-align: left;
+}
+
+p{
+    margin: .2em;
+}
+
+/* SECTION class selectors */
+
+.nav-header{
+    color: white;
+    font-size: 2em;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.margin-top{
+    margin-top: 1.5em;
+}
+
+.margin-left{
+    margin-left: 10em;
+}
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.border{
+    border: 2px solid gray;
+}
+
+.card{
+    padding: .7em;
+    margin: 1em 3em 1em 16em;
+}
+
+.side-card{
+    padding: .7em;
+    margin: 1em 3em 1em 3em;
+}
+
+.align-items-right{
+    align-items:flex-end
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.dog-img{
+    height: 150px;
+    width: 200px;
+}
